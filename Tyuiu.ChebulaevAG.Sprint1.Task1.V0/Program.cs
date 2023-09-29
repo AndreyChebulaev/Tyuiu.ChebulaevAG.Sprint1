@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.ChebulaevAG.Sprint1.Task0.V24.Lib;
+using Tyuiu.ChebulaevAG.Sprint1.Task1.V0.Lib;
 
-namespace Tyuiu.ChebulaevAG.Sprint1.Task0.V24
+namespace Tyuiu.ChebulaevAG.Sprint1.Task1.V0
 {
     class Program
     {
@@ -19,22 +19,31 @@ namespace Tyuiu.ChebulaevAG.Sprint1.Task0.V24
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы C#                                          *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #24                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #0                                                              *");
             Console.WriteLine("* Выполнил: Чебулаев Андрей Геннадьевич | РПСб-23-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выпажение 2*4/4/2+1               *");
-            Console.WriteLine("* и печатает результат на экран                                           *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные  *");
+            Console.WriteLine("* вычисляет результат по формуле x / (1 - y) и печатает его на экране.    *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("* 2*4/4/2+1                                                               *");
+            Console.WriteLine("***************************************************************************");
+
+            double x, y;
+
+            Console.WriteLine("Введите значение X: ");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y: ");
+            y = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
         }
