@@ -18,7 +18,7 @@ namespace Tyuiu.ChebulaevAG.Sprint1.Task7.V20
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Чебулаев Андрей Геннадьевич | РПСб-23-1                       *");
